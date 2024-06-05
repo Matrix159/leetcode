@@ -13,7 +13,7 @@ fun reverseString(s: CharArray): Unit {
   var right = s.size - 1
 
   while (left < right) {
-    var temp = s[left]
+    val temp = s[left]
     s[left] = s[right]
     s[right] = temp
     left++
